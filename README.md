@@ -25,4 +25,7 @@ Installation
 
 References
 ----------
-Default stylesheet - chrome-devtools://devtools/devTools.css
+* Default stylesheet - chrome-devtools://devtools/devTools.css
+* [Wait, DevTools could do THAT?][1] - Great presentation on some tips & tricks for Chrome's dev tools.
+
+[1]: http://bit.ly/RipkeL
