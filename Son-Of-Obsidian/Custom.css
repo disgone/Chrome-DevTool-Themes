@@ -1,0 +1,91 @@
+/************************************************************
+	Son of Obsidian Port for Chrome
+	- Shaun Smith 2012
+
+	Install locations --
+
+	Windows:
+	%LOCALAPPDATA%\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
+
+	Linux: -- this may be specific to your distro?
+	~/.config/chromium/Default/User StyleSheets/Custom.css
+
+	Mac:
+	~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
+
+	Based on Son of Obsidian theme
+	for Visual Studio by einaros
+	http://studiostyl.es/schemes/son-of-obsidian
+************************************************************/
+
+body.platform-windows .monospace,
+body.platform-windows .source-code 
+{
+	/* Source code Pro is what I'm currently using in VS2012 so why not here
+	   too -- this will fallback to consolas in case you don't jump on trends :)
+    */
+	font-family: "Source Code Pro", "Consolas", monospace !important;
+}
+
+/*
+Linux/Mac may want to add thier own fonts, i'm not familiar with them so we'll
+leave them as the defaults.
+*/
+
+#elements-content.source-code 
+{
+	background: #22282A !important;
+}
+
+#elements-content .highlight { 
+  color: #d4d4d4;
+}
+
+.webkit-html-tag,
+.webkit-html-doctype,
+.webkit-javascript-keyword
+{
+	color: #93C763 !important;
+}
+
+.webkit-html-attribute-name,
+.webkit-css-selector 
+{
+	color: #678CB1 !important;
+}
+
+.webkit-html-attribute-value,
+.webkit-javascript-string
+{
+	color: #C65618 !important;
+}
+
+.webkit-html-comment,
+.webkit-javascript-comment,
+.webkit-css-comment 
+{
+	color: #616F75 !important;
+}
+
+.webkit-css-important 
+{
+	color: #F1BD24 !important;
+}
+
+.webkit-css-property,
+.webkit-css-at-rule 
+{
+	color: #7B7CA2 !important;
+}
+
+.webkit-javascript-ident 
+{
+	color: #FFFFFF !important;
+}
+
+.webkit-html-text-node,
+.webkit-html-css-node,
+.webkit-html-js-node
+{
+	color: #FFFFFF !important;
+}
