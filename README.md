@@ -27,7 +27,7 @@ or run as-is.
 ![CodingHorror](https://raw.github.com/Disgone/Chrome-DevTool-Themes/master/screenshots/coding-horror.png)
 
 ###Son of Obsidian
-![SonOfObsidian](https://raw.github.com/Disgone/Chrome-DevTool-Themes/master/screenshots/coding-horror.png)
+![SonOfObsidian](https://raw.github.com/Disgone/Chrome-DevTool-Themes/master/screenshots/son-of-obsidian.png)
 
 
 
