@@ -32,6 +32,47 @@ Linux/Mac may want to add thier own fonts, i'm not familiar with them so we'll
 leave them as the defaults.
 */
 
+#console-messages .console-group-messages .section .header::before,
+#console-messages .properties-tree li.parent::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleBlack.png) !important;
+}
+
+#console-messages .console-group-messages .section.expanded .header::before,
+#console-messages .properties-tree li.parent.expanded::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleBlack.png) !important;
+}
+
+#elements-content .parent::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleBlack.png) !important;
+	position: relative;
+	z-index: 999;
+}
+
+#elements-content .parent.expanded::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleBlack.png) !important;
+}
+
+#elements-content .parent.expanded 
+{
+	background: #F0F0F0;
+}
+
+#elements-content .parent.selected 
+{
+	background: #DDDDDD;
+	border-left: 1px solid #000;
+}
+
+#elements-content .parent.selected + *
+{
+	background: #EAEAEA;
+	border-left: 1px solid #CCC;
+}
+
 #elements-content.source-code 
 {
 	background: #F8F8F8 !important;
@@ -84,7 +125,7 @@ leave them as the defaults.
 .webkit-css-property,
 .webkit-css-at-rule 
 {
-	color: #7B7CA2 !important;
+	color: #A65300 !important;
 }
 
 .webkit-javascript-ident 
