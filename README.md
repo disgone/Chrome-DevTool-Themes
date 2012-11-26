@@ -28,7 +28,7 @@ or run as-is.
 ![SonOfObsidian](https://raw.github.com/Disgone/Chrome-DevTool-Themes/master/screenshots/son-of-obsidian.png)
 
 ## Customization
-Fork and customize to your needs.  The default css can be viewed by pointing your browse to `chrome-devtools://devtools/devTools.css`.
+Fork and customize to your needs.  The default css stylesheet that Chrome uses can be viewed by pointing your browser to `chrome-devtools://devtools/devTools.css`
 
 ## References
 * Default stylesheet - chrome-devtools://devtools/devTools.css
