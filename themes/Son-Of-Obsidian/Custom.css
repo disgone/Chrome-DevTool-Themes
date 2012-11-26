@@ -32,6 +32,42 @@ Linux/Mac may want to add thier own fonts, i'm not familiar with them so we'll
 leave them as the defaults.
 */
 
+#console-messages .console-group-messages .section .header::before,
+#console-messages .properties-tree li.parent::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+}
+
+#console-messages .console-group-messages .section.expanded .header::before,
+#console-messages .properties-tree li.parent.expanded::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#elements-content .parent::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+	position: relative;
+	z-index: 999;
+}
+
+#elements-content .parent.expanded::before 
+{
+	content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
+
+#elements-content .parent.selected 
+{
+	background: #303A3B;
+	border-left: 1px solid #FFF;
+}
+
+#elements-content .parent.selected + *
+{
+	background: #242d2d;
+	border-left: 1px solid #DDD;
+}
+
 #elements-content.source-code 
 {
 	background: #22282A !important;
